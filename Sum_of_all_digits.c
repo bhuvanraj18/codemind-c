@@ -1,17 +1,12 @@
-#include <stdio.h>
-int main()
-{
-   int n, sum = 0, r;
-
-   for (scanf("%d", &n);
-   n != 0;
-   n = n/10) {
-      r = n % 10;
-      sum = sum + r;
-   }
-
-   printf("%d
-", sum);
-
-   return 0;
+#include<stdio.h>
+int main(){
+    int n,m,a,sum=0;
+    scanf("%d",&n);
+    while(n>0)    
+{    
+    m=n%10;    
+    sum=sum+m;    
+    n=n/10;    
+}    
+printf("%d",sum);
 }
