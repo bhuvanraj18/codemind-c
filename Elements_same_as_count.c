@@ -1,12 +1,11 @@
 #include<stdio.h>
 int main(){
-    int a,b,n;
+    int n;
     scanf("%d",&n);
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    scanf("%d %d",&a,&b);
     int flag =0;
     for(int i=0;i<n;i++){
         int occ=0;
