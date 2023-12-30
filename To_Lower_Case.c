@@ -5,7 +5,7 @@ int main(){
     scanf("%[^
 ]s",str);
     for(int i=0;str[i]!=NULL;i++){
-        str[i]=tolower(str[i]);
-        printf("%c",str[i]);
+        int a=tolower(str[i]);
+        printf("%c",a);
     }
 }
